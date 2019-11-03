@@ -39,7 +39,12 @@ object FrontendSettings {
     webpackDevServerExtraArgs in fastOptJS := Seq("--inline", "--hot"),
     webpackBundlingMode in fastOptJS := BundlingMode.LibraryOnly(),
 
-    requireJsDomEnv in Test := true
+    requireJsDomEnv in Test := true,
+
+    // akka
+    libraryDependencies += "org.akka-js" %%% "akkajsactor" % "1.2.5.23",
+    libraryDependencies += "org.akka-js" %%% "akkajsactorstream" % "1.2.5.23"
+
 
   )
 
