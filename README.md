@@ -23,3 +23,7 @@ the call but obviously you can use any library that you like).
 We put the various settings into dedicated object within the `project` folder.
 For example, frontend settings are in `project/FontendSettings.scala`.
 
+
+*This project is (roughly) the result of creating the seed for play in backend,
+the seed for Slinky in frontend and creating the proxy.*
+
