@@ -27,6 +27,7 @@ module.exports = merge(core, {
            target: "http://localhost:9000",
            pathRewrite: {"^/play" : ""}
          }
-       }
+       },
+       historyApiFallback: true
      }
 })
